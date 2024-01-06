@@ -1,5 +1,13 @@
-import Portfolio from './components/HomePage'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-const App = () => <Portfolio />
+import Portfolio from "./components/HomePage";
 
-export default App
+const App = () => (
+  <BrowserRouter>
+    <Routes>
+      <Route exact path="/" element={<Portfolio/>} />
+    </Routes>
+  </BrowserRouter>
+);
+
+export default App;

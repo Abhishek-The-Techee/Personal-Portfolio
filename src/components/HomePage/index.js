@@ -1,4 +1,5 @@
 import { Component } from "react";
+import { Link } from "react-router-dom";
 
 import "./index.css";
 
@@ -97,8 +98,8 @@ class Portfolio extends Component {
               <p className="designation">UI/UX DESIGNER</p>
               <h1 className="bold-name">Hello, my name is Abhishek</h1>
               <p className="desc">
-                I'm Abhishek, I have completed MCA, Now I'm enrolled with
-                Nxtwave in Nxtwave I'm learning 4.0 technologies.
+                I'm Abhishek, I have completed MCA, Now I enrolled with Nxtwave
+                in Nxtwave I'm learning 4.0 technologies.
               </p>
               <div className="buttons-container">
                 <button className="projects-btn">Projects</button>
@@ -119,11 +120,9 @@ class Portfolio extends Component {
             {this.renderProjectName()}
             {this.renderProjectLink()}
             {this.renderProjectDesc()}
-            <div className="btn-container">
-              <button type="submit" className="add-btn">
-                Add
-              </button>
-            </div>
+            <button type="submit" className="add-btn">
+              Add
+            </button>
           </form>
 
           <img

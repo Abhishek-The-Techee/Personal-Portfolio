@@ -45,6 +45,7 @@
   outline: none;
   background-color: orange;
   border-radius: 5px;
+  margin-bottom: 5px;
 }
 .LinkedIn-btn {
   border: 1ps solid black;
@@ -87,7 +88,7 @@
 }
 
 .input-box {
-  width: 220px;
+  width: 250px;
   height: 20px;
 }
 .label-text {
@@ -106,9 +107,11 @@
   background-color: orange;
   border: none;
   border-radius: 5px;
+  margin-top: 20px;
+  align-self: flex-end;
 }
 .btn-container {
+  margin-top: 20px;
   display: flex;
-  flex-direction: row;
   justify-content: flex-end;
 }
